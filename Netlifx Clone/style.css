@@ -1,7 +1,12 @@
+/* *{
+    margin: 0px;
+    padding:0px;
+} */
 .main {
-    width: auto;
-    height: auto;
+    width: 96vw;
+    height: 100vh;
     color: white;
+
 }
 
 .landing {
@@ -13,22 +18,31 @@
     color: white;
     font-family: sans-serif;
     background-image: url("material/Netlifx-logo-1.jpg");
+    background-position: center center;
     padding: 20px;
+    opacity: .6;
+    /* I am gonna work with this one for now */
+
 }
 
 .landing p {
     font-weight: 100;
+    font-size: 25px;
 }
 
 .landing h1 {
     font-weight: 1000;
-    font-size: 2rem;
+    font-size: 60px;
+    margin-top: 20%;
+    text-align: center;
 }
 
 .signup {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 60%;
+    margin: 0;
+    padding: 0;
 }
 
 .signup #input {
@@ -37,23 +51,29 @@
     border-radius: 5px;
     color: inherit;
     width: 60%;
-    height: 40px;
+    height: 65px;
     margin-bottom: 10px;
+}
+
+.signup #input::placeholder {
+    font-size: 18px;
+    /* Adjust the font size as needed */
 }
 
 .signup #Started {
     color: white;
-    width: 49%;
+    width: 35%;
     /* Adjusted width */
-    height: 40px;
+    height: 65px;
     background-color: red;
     border-radius: 5px;
     font-weight: 100;
     font-size: large;
+    border: 3px solid red;
 }
 
 .landing #logo {
-    width: 100px;
+    width: 15%;
     height: auto;
     align-self: flex-start;
 }
