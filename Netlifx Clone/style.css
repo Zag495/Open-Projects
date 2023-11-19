@@ -9,6 +9,16 @@
 
 }
 
+p {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 60px;
+}
+
 .landing {
     display: flex;
     flex-direction: column;
@@ -17,24 +27,23 @@
     width: 100%;
     color: white;
     font-family: sans-serif;
-    background-image: url("material/Netlifx-logo-1.jpg");
+    background-image: url("material/Background.jpg");
     background-position: center center;
     padding: 20px;
-    opacity: .6;
+    /* opacity: .6; */
     /* I am gonna work with this one for now */
 
 }
 
-.landing p {
+/* .landing p {
     font-weight: 100;
     font-size: 25px;
-}
+} */
 
 .landing h1 {
-    font-weight: 1000;
-    font-size: 60px;
     margin-top: 20%;
     text-align: center;
+
 }
 
 .signup {
@@ -62,13 +71,12 @@
 
 .signup #Started {
     color: white;
-    width: 35%;
+    width: 38%;
     /* Adjusted width */
     height: 65px;
     background-color: red;
     border-radius: 5px;
     font-weight: 100;
-    font-size: large;
     border: 3px solid red;
 }
 
@@ -76,4 +84,43 @@
     width: 15%;
     height: auto;
     align-self: flex-start;
+}
+
+.Part2 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.content {
+    flex: 1;
+    /* Take up remaining space */
+    /* padding: 10px; */
+    margin-top: 45px;
+    margin-left: 29px;
+}
+
+.media {
+    position: relative;
+}
+
+#TV {
+    width: auto;
+    height: auto;
+    z-index: 2;
+    position: relative;
+}
+
+#video {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-width: 74%;
+    max-height: 54%;
+    position: absolute;
+    top: 99px;
+    left: 81px;
+    z-index: 1;
 }
