@@ -37,6 +37,7 @@ h1 {
     background-image: url("material/Background.jpg");
     background-position: center center;
     padding: 20px;
+    height: 830px;
     /* opacity: .6; */
     /* I am gonna work with this one for now */
 
@@ -63,7 +64,7 @@ h1 {
 
 .signup #input {
     background-color: transparent;
-    border: 1px solid white;
+    border: 1px solid #5e5e5e;
     border-radius: 5px;
     color: inherit;
     width: 60%;
@@ -73,7 +74,7 @@ h1 {
 
 .signup #input::placeholder {
     font-size: 18px;
-    /* Adjust the font size as needed */
+    padding-left: 20px;
 }
 
 .signup #Started {
@@ -83,8 +84,9 @@ h1 {
     height: 65px;
     background-color: red;
     border-radius: 5px;
-    font-weight: 100;
     border: 3px solid red;
+    cursor: pointer;
+    font-size: 28px;
 }
 
 .landing #logo {
@@ -255,4 +257,63 @@ h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.answers {
+    text-align: left;
+    /* margin: 10px; */
+    padding: 10px;
+    padding-left: 20px;
+
+}
+
+.answers p {
+    border: 1px solid transparent;
+    margin-top: 1px;
+    background-color: #2d2d2d;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+summary {
+    background: #2d2d2d;
+    border: 1px solid transparent;
+    font-size: 30px;
+    justify-content: center;
+    height: 62px;
+    text-align: left;
+    padding: 27px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    padding-top: 30px;
+}
+
+summary:hover {
+    background-color: #414141;
+}
+
+.pad {
+    height: 10px;
+    background-color: black;
+}
+
+.Faqs .signup {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 246px;
+    justify-content: space-between;
+}
+
+.Faqs #Started {
+    padding-left: 10px;
+    position: relative;
+    bottom: 5px;
 }
