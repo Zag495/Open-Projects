@@ -140,34 +140,72 @@ h1 {
 
 .animate {
     display: flex;
-    justify-content: space-around;
-    border: 1px solid white;
-    /* border-top: 10px ; */
+    /* justify-content: space-around; */
+    justify-content: left;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.7);
     background-color: black;
-    border-radius: 20px;
-    width: 58%;
+    border-radius: 18px;
+    width: 60%;
+    height: 20%;
     position: relative;
-    top: -17%;
+    top: -29%;
     right: -22%;
 }
 
-/* .content2 {
- 
-} */
+.items2 {
+    display: flex;
+    justify-content: left;
+
+}
 
 .content2 p {
+    position: relative;
+    bottom: -20px;
     font-size: 17px;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.animate #DIcon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 33px;
+    left: 82%;
 }
 
 .content2 #download {
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     color: rgb(76, 76, 189);
+}
+
+#mobile {
+    opacity: 0.6;
 }
 
 #movie {
     position: relative;
-    /* right: 72%; */
     width: 80px;
     height: 90px;
+    margin-right: 10px;
+    margin-left: 10px;
     /* image-resolution: 100px; */
+}
+
+/* ######### Part4 */
+.Part4 {
+    width: 1247px;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+.Part4-content {
+    max-width: 50%;
+    /* Set the maximum width of the content to 50% */
+    text-align: left;
+    /* Align the text to the left */
 }
