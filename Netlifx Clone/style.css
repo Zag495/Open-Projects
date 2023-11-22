@@ -23,7 +23,7 @@ p {
 
 h1 {
     font-weight: 1000;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .landing {
@@ -31,25 +31,33 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 99vw;
+    width: 1208px;
     color: white;
     font-family: sans-serif;
     background-image: url("material/Background.jpg");
     background-position: center center;
     padding: 20px;
-    height: 830px;
-    /* opacity: .6; */
-    /* I am gonna work with this one for now */
-
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-/* .landing p {
-    font-weight: 100;
-    font-size: 25px;
-} */
+.landing #signin {
+    background-color: red;
+    margin-top: -46px;
+    color: white;
+    align-self: flex-end;
+    width: 90px;
+    height: 38px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing p {
+    margin-top: 10px;
+}
 
 .landing h1 {
-    margin-top: 20%;
+    margin-top: 12%;
     text-align: center;
 
 }
@@ -99,7 +107,9 @@ h1 {
 .Part2 {
     background-color: rgb(0, 0, 0);
     color: white;
-    width: 98vw;
+    /* width: 1247px; */
+    width: auto;
+    height: 600px;
     font-size: 20px;
     font-family: sans-serif;
     display: flex;
@@ -141,7 +151,7 @@ h1 {
     display: flex;
     flex-direction: row-reverse;
     background-color: black;
-    width: 98vw;
+    width: auto;
     font-family: sans-serif;
 }
 
@@ -207,8 +217,8 @@ h1 {
 
 /* ############################ Part4 */
 .Part4 {
-    width: 1247px;
-    height: 500px;
+    width: auto;
+    height: 600px;
     background-color: black;
     display: flex;
     flex-direction: column;
