@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+}
+
+header {
+    z-index: 911;
+    font-family: "open sans", sans-serif;
+
+}
+
+#a1 {
+    width: 30px;
+    height: 30px;
+}
+
+#a2 {
+    width: 20px;
+    height: 20px;
+}
+
+#but {
+    background: white;
+    color: #c21760;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #e73f87;
+    border-radius: 10px;
+
+}
+
+#butt {
+    background: #c21760;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: 1px solid #e73f87;
+    border-radius: 10px;
+}
